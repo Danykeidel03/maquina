@@ -38,6 +38,14 @@ public class MaquinaExpendedoraSimple {
         estacionOrigen = "Leon";
         estacionDestino = destino;
     }
+
+    /**
+     * Reducir Precio
+     */
+    public void setReducirPrecio(int reducirBillete) {
+        precioBillete = precioBillete - reducirBillete;
+    }
+    
     /**
      * Cambio de precio
      */
