@@ -37,9 +37,16 @@ public class MaquinaExpendedoraSimple {
         totalDineroAcumulado = 0;
         estacionOrigen = "Leon";
         estacionDestino = destino;
+    }       
+    
+              /**
+     * Reducir Precio
+     */
+     public void setDeposito() {
+        totalDineroAcumulado = 0;
     }
-
-    /**
+    
+              /**
      * Reducir Precio
      */
     public void setReducirPrecio(int reducirBillete) {
